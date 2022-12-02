@@ -346,9 +346,19 @@ nav .fa{
     margin: 0 13px;
     cursor: pointer;
 }
-.fa-heart-o{
+/* .fa-solid fa-heart{
+    color: red;
+} */
+.muski i{
     color: red;
 }
+.harshu i{
+    color: rgb(6, 2, 39);
+}
+#anku i{
+    color: rgb(235, 17, 89);
+}
+
 
 /* images */
 .image-header{
@@ -529,11 +539,15 @@ nav .fa{
     padding-bottom: 50px;
     text-align: center;
     background-color: rgb(211, 211, 211);
+    /* border: 1px solid purple; */
+    justify-content: center;
 
 }
 .contact-col{
     flex-basis: 48%;
     margin-bottom: 30px;
+    /* border: 1px solid black; */
+    justify-content: center;
   
   }
 .contact-col div{
@@ -555,4 +569,12 @@ nav .fa{
     margin-bottom: 5px;
     font-weight: 600;
     color: black;
+}
+.row {
+    /* border: 2px solid brown; */
+    justify-content: center;
+}
+.kavi{
+    justify-content: center;
+    /* border: 10px solid red; */
 }
